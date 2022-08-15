@@ -2,7 +2,7 @@
 
 This is a repository for my first personal portfolio
 
-## Reason?
+## Reason
 
 I've been studying for around six months and I wanted to do this personal portfolio with main web technologies to practice and prove my skills.
 
