@@ -4,6 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/src/styles/main.css" />
         <link
             rel="shortcut icon"
             href="/public/Cut_Logo.svg"
@@ -14,9 +21,13 @@
 
     <body id="home">
         <!-- Header section -->
-        <header id="main_header">
+        <header id="main_header" class="main_header">
             <a href="#home">
-                <img src="/public/Small_Text.svg" alt="logo" />
+                <img
+                    src="/public/Small_Text.svg"
+                    alt="logo"
+                    class="home_icon"
+                />
             </a>
 
             <a href="#about">
@@ -32,32 +43,28 @@
             </a>
         </header>
 
-        <hr />
-
         <!-- About section -->
-        <section id="about">
+        <section id="about" class="about">
             <h1>Hi, I'm DGorp</h1>
             <h3>Web frontend developer</h3>
         </section>
 
         <!-- Knowledge section -->
-        <section id="knowledge">
+        <section id="knowledge" class="knowledge">
             <h2>Knowledge</h2>
         </section>
 
         <!-- Projects section -->
-        <section id="projects">
+        <section id="projects" class="projects">
             <h2>Main projects</h2>
         </section>
 
-        <hr />
-
         <!-- Footer section -->
-        <footer id="main_footer">
-            <section id="contact">
+        <footer id="main_footer" class="main_footer">
+            <section id="contact" class="contact">
                 <h2>Contact me</h2>
 
-                <ul>
+                <ul class="social_links">
                     <li>
                         <a href="https://www.linkedin.com/in/dgorp/">
                             <img src="" alt="linkedin" />
