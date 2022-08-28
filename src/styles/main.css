@@ -5,8 +5,7 @@
 }
 
 body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    background-color: lightgray;
 }
 
 a {
@@ -14,51 +13,50 @@ a {
     color: black;
 }
 
+a:hover {
+    font-weight: bold;
+    color: green;
+}
+
 ul {
     list-style: none;
 }
 
+.main_sections {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    top: 0;
+}
+
+.side {
+    background-color: black;
+}
+
+.side p,
+a {
+    color: whitesmoke;
+}
+
 /*? Main header */
 .main_header {
-    background-color: lightgreen;
-    text-align: center;
-    grid-column: 1;
-    grid-row: 1 / 3;
+    left: 0;
+    width: 15%;
 }
 
 .home_icon {
-    width: 200px;
-    height: 65px;
+    width: 100%;
 }
 
-/** About section */
-.about {
+/*? Main section */
+.center_section {
     background-color: lightyellow;
-    text-align: center;
-    grid-column: 2;
-    grid-row: 1 / 4;
-}
-
-/** Knowledge section */
-.knowledge {
-    background-color: lightyellow;
-    text-align: center;
-    grid-column: 2;
-    grid-row: 2 / 4;
-}
-
-/** Projects section */
-.projects {
-    background-color: lightyellow;
-    text-align: center;
-    grid-column: 2;
-    grid-row: 3 / 4;
+    left: 15%;
+    right: 15%;
 }
 
 /*? Main footer */
 .main_footer {
-    background-color: lightblue;
-    text-align: center;
-    grid-column: 3;
-    grid-row: 1 / 3;
+    right: 0;
+    width: 15%;
 }
