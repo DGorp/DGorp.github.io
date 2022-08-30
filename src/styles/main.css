@@ -1,3 +1,25 @@
+:root {
+    /* Background colors */
+    --primary_background: whitesmoke;
+    --secondary_background: black;
+    --accent_background: darkgreen;
+
+    /* Text colors */
+    --dark_text: black;
+    --light_text: whitesmoke;
+    --accent_text: chartreuse;
+
+    /* Text size */
+    --title_text_1: 40px;
+    --subtitle_2: 32px;
+    --subtitle_3: 24px;
+    --text: 20px;
+
+    /* Text weight */
+    --bold_text: 400;
+    --bolder_text: 700;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,17 +27,33 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: var(--primary_background);
+}
+
+h1 {
+    font-size: var(--title_text_1);
+}
+
+h2 {
+    font-size: var(--subtitle_2);
+}
+
+h3 {
+    font-size: var(--subtitle_3);
+}
+
+p {
+    font-size: var(--text);
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--dark_text);
 }
 
 a:hover {
-    font-weight: bold;
-    color: green;
+    font-weight: var(--bolder_text);
+    color: var(--accent_text);
 }
 
 ul {
@@ -30,12 +68,12 @@ ul {
 }
 
 .side {
-    background-color: black;
+    background-color: var(--secondary_background);
 }
 
 .side p,
 a {
-    color: whitesmoke;
+    color: var(--light_text);
 }
 
 /*? Main header */
@@ -50,7 +88,6 @@ a {
 
 /*? Main section */
 .center_section {
-    background-color: lightyellow;
     left: 15%;
     right: 15%;
 }
