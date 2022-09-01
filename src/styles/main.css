@@ -26,6 +26,7 @@
     font-family: "Ubuntu Mono", monospace;
 }
 
+/*? Labels */
 body {
     background-color: var(--primary_background);
 }
@@ -60,6 +61,7 @@ ul {
     list-style: none;
 }
 
+/*? Body sections */
 .main_sections {
     position: absolute;
     text-align: center;
@@ -67,6 +69,7 @@ ul {
     top: 0;
 }
 
+/*? Side sections */
 .side {
     background-color: var(--secondary_background);
 }
@@ -96,4 +99,10 @@ a {
 .main_footer {
     right: 0;
     width: 15%;
+}
+
+.social_image {
+    width: 44px;
+    border-radius: 10px;
+    background-color: var(--primary_background);
 }
